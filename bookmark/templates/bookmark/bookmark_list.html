@@ -24,7 +24,14 @@
       <td>
         <a href="{{ bookmark.url }}" target="_blank">{{ bookmark.url }}</a>
       </td>
-      <td><a href="#" class="btn btn-btn-success btn-sm">Modify</a></td>
+      <!-- 북마크 수정 -->
+      <td>
+        <a
+          href="{% url 'update' pk=bookmark.id %}"
+          class="btn btn-btn-success btn-sm"
+          >Modify</a
+        >
+      </td>
       <td><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
     </tr>
     {% endfor %}
