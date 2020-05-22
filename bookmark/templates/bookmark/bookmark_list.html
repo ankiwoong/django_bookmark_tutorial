@@ -1,3 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}Bookmark List{% endblock %}
+
+{% block content %}
 <div class="btn-group">
   <!-- 북마크 추가 -->
   <a href="{% url 'add' %}" class="btn btn-info">Add Bookmark</a>
@@ -44,3 +49,4 @@
     {% endfor %}
   </tbody>
 </table>
+{% endblock %}
