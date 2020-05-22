@@ -1,4 +1,5 @@
 <div class="btn-group">
+  <!-- 북마크 추가 -->
   <a href="{% url 'add' %}" class="btn btn-info">Add Bookmark</a>
 </div>
 <p></p>
@@ -16,7 +17,10 @@
     {% for bookmark in object_list %}
     <tr>
       <td>{{ forloop.counter }}</td>
-      <td><a href="#">{{ bookmark.site_name }}</a></td>
+      <td>
+        <!-- 북마크 조회 -->
+        <a href="{% url 'detail' pk=bookmark.id %}">{{ bookmark.site_name }}</a>
+      </td>
       <td>
         <a href="{{ bookmark.url }}" target="_blank">{{ bookmark.url }}</a>
       </td>
