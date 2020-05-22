@@ -32,7 +32,14 @@
           >Modify</a
         >
       </td>
-      <td><a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+      <!-- 북마크 삭제 -->
+      <td>
+        <a
+          href="{% url 'delete' pk=bookmark.id %}"
+          class="btn btn-danger btn-sm"
+          >Delete</a
+        >
+      </td>
     </tr>
     {% endfor %}
   </tbody>
