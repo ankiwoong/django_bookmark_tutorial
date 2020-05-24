@@ -1,5 +1,5 @@
-# django_bookmark_tutorial
-[Django 입문 도서]배프의 오지랖 파이썬 웹프로그래밍
+# 실전 프로젝트 - 북마크(P.91 ~ P.168)
+
 ## 메인 페이지(페이징 처리)
 <img src="https://github.com/ankiwoong/django_bookmark_tutorial/blob/master/temp/Screenshot/%EC%B5%9C%EC%A2%85%20%EC%A0%90%EA%B2%80%20%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4%201.png?raw=true">
 <img src="https://github.com/ankiwoong/django_bookmark_tutorial/blob/master/temp/Screenshot/%EC%B5%9C%EC%A2%85%20%EC%A0%90%EA%B2%80%20%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4%202.png?raw=true">
