@@ -25,3 +25,10 @@
 ```html
 bootstrap.min.js:6 Uncaught Error: Bootstrap's JavaScript requires jQuery
 ```
+
+---
+
+## pip install
+```python
+pip install django
+```
